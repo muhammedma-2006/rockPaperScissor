@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3.5rem;
+    font:  sans-serif;
+
+    
+}
+button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    border-radius: 250px;
+    margin: 0 10px;
+    border: none;
+    background-color: hsl(120, 89%, 43%);
+    transition: 0.5s background-color ease;
+}
+button:hover{
+    background-color: hsl(120, 89%, 33%);
+}
+.choice{
+    margin-bottom: 50px;
+}
+#playerDisplay{
+    font-size: 2.5rem;
+    font:  sans-serif;
+    
+    
+}
+#computerDisplay{
+    font-size: 2.5rem;
+    font:  sans-serif;
+    
+}
+#resultDisplay{
+    font-size: 5rem;
+    font:  sans-serif;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+#score{
+    
+    font-size: 2.5rem;
+    font:  sans-serif;
+    text-transform: uppercase;
+    
+}
+.greenText{
+    color: hsl(130, 84%, 54%);
+}
+.redText{
+    color: red;
+}
