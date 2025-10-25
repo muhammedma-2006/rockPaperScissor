@@ -10,13 +10,11 @@ body{
 
 h1{
     font-size: 3.5rem;
-    font:  sans-serif;
-
-    
+    font:  sans-serif;  
 }
 button{
     font-size: 7.5rem;
-    min-width: 160px;
+    min-width: 160px; 
     border-radius: 250px;
     margin: 0 10px;
     border: none;
