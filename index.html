@@ -4,7 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="choice-container">
+        <div class="game-title">
+            <h1>Rock - Paper - Scissor</h1>
+            <div class="choice">
+                <button  onclick="playGame('Rock')">👊</button>
+                <button  onclick="playGame('Paper')">🤚</button>
+                <button  onclick="playGame('Scissor')">✌️</button>
+            </div>
+        </div>
+        <div class="score-board">
+            <div id="score">
+                <h3>SCORE:</h3>
+                <div id="playerScore">player:0</div>
+                <div id="computerScore">computer:0</div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="result-container">
+        <div class="display">
+            <div id="playerDisplay">Player:</div>
+            <div id="computerDisplay">Computer:</div>
+        </div>
+        <div id="resultDisplay"></div>
+    </div>
+    
+  
+    <script src="./script.js"></script>
+</body>
+</html>
 </head>
 <body>
     <h1>Rock - Paper - Scissor</h1>
@@ -25,4 +64,5 @@
   
     <script src="./script.js"></script>
 </body>
+
 </html>
