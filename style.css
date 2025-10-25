@@ -4,6 +4,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font:  sans-serif;
+    background-color:#f4f7fb;;
 }
 
 h1{
@@ -56,4 +58,39 @@ button:hover{
 }
 .redText{
     color: red;
+}
+.choice-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.game-title{
+    box-shadow: 0  5px 5px;
+    border-radius: 15px;
+     background-color: #ffffff;
+     padding: 10px 20px;
+}
+.score-board{
+    box-shadow: 0  5px 5px;
+    border-radius: 15px;
+     background-color: #ffffff;
+     padding: 50px;
+     margin: 0;
+     text-align: center;
+}
+.score h3{
+    margin-top: 0;
+}
+.result-container{
+    box-shadow: 0 5px 5px;
+    border-radius: 15px;
+     background-color: #ffffff;
+     padding: 20px 50px;
+     margin-top: 50px;
+     text-align: center;
+     display: flex;
+     max-width: 100%;
+     gap: 50px;
 }
